@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.Body {
+  height: 84%;
+  background-color: #00f7ff;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home1,
+.home2 {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: column;
+}
+.navWrapper {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  height: 125px;
+  width: 100px;
+  background-color: Black;
+}
+.navWrapper a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.dropDownMenu {
+  height: 100%;
+  width: 40px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle {
+  display: none;
+}
+.navWrapper a:hover {
+  background-color: #002aff;
+}
+@media screen and (min-width: 600px) {
+  .dropDownMenu {
+    display: none;
+  }
+  .navWrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    flex-direction: row;
+    top: 0;
+  }
+}
+header {
+  height: 20%;
+  background-color: #2fff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+footer {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+  font-size: 25px;
+  background-color: #fff200;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.superduper {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactform {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
